@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:text="0988123388"
+            android:textSize="34sp"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="#000" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPersonName"
+            android:text="Tom Cruise"
+            android:textSize="34sp"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="#000" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:text="1234"
+            android:textSize="34sp"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="#000" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:shadowColor="#000"
+            android:text="Sign Up"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</RelativeLayout>

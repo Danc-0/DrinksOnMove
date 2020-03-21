@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737409681123",
+    "firebase_url": "https://drinksonthemove-23dfc.firebaseio.com",
+    "project_id": "drinksonthemove-23dfc",
+    "storage_bucket": "drinksonthemove-23dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737409681123:android:a832e351143a98c01867d6",
+        "android_client_info": {
+          "package_name": "com.example.drinksonmove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737409681123-8l2pu17on8cqhcq96011tgd8hufbeig9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drinksonmove",
+            "certificate_hash": "a4b96c4ae0e90d9a381e3ca4e4e5614bb19f06eb"
+          }
+        },
+        {
+          "client_id": "737409681123-lh7le397re5h3j4nei8h855jikh9qkba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRZfy-pqBuZgTKUR7mqv61pOxuAK62y4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737409681123-lh7le397re5h3j4nei8h855jikh9qkba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
